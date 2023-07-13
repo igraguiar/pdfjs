@@ -1,0 +1,41 @@
+Arguments: 
+  /home/igraguiar/.asdf/installs/nodejs/14.15.4/bin/node /usr/share/yarn/bin/yarn.js add pdf-js
+
+PATH: 
+  /home/igraguiar/.asdf/installs/nodejs/14.15.4/bin:/home/igraguiar/.asdf/installs/nodejs/14.15.4/.npm/bin:/home/igraguiar/.nix-profile/bin:/home/igraguiar/.asdf/shims:/home/igraguiar/.asdf/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jre-8.0.322.6-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jre-11.0.14.9-hotspot/bin:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files (x86)/Eclipse Adoptium/jre-8.0.312.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/Docker/host/bin:/mnt/c/Users/Igor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Igor/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/Igor/AppData/Local/Programs/Fiddler:/home/igraguiar/.yarn/bin:/home/igraguiar/.asdf/installs/gcloud/403.0.0/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pdf-js: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "pdfjs",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

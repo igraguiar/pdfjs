@@ -1,0 +1,10 @@
+{
+  "name": "pdfjs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdfjs": "^2.5.0",
+    "pdfjs-dist": "^3.8.162"
+  }
+}
